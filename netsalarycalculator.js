@@ -1,7 +1,7 @@
 //Net salary calculator
 function calculateNetSalary(basicSalary, benefits) {
     // Constants for tax rates and deductions
-    const taxRate = 0.1; // 30%
+    const taxRate = 0.1; // 10%
     const nhifRate = 0.15; // 15%
     const nssfRate = 0.12; // 12%
 

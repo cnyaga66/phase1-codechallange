@@ -1,14 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><script type="text/javascript" src="studentgradedetector.js"></script>
-        <script type="text/javascript" src="speeddetector.js"></script>
-        <script type="text/javascript" src="tax.js"></script>
-    </title>
+    <title>JavaScript Demos</title>
+    <script src="studentgradedetector.js"></script>
+    <script src="speeddetector.js"></script>
+    <script src="netsalarycalculator.js"></script>
 </head>
 <body>
-    
+    <h1>JavaScript Demos</h1>
+    <h2>Student Grade Detector</h2>
+    <form id="gradeForm">
+        <label for="marksInput">Enter student marks (between 0 and 100):</label>
+        <input type="number" id="marksInput" min="0" max="100">
+        <button type="submit">Calculate Grade</button>
+    </form>
+    <div id="gradeResults"></div>
+
+    <h2>Speed Detector</h2>
+    <form id="speedForm">
+        <label for="speedInput">Enter speed (in miles per hour):</label>
+        <input type="number" id="speedInput">
+        <button type="submit">Calculate Pace</button>
+    </form>
+    <div id="speedResults"></div>
+
+    <h2>Net Salary Calculator</h2>
+    <form id="salaryForm">
+        <label for="basicSalary">Basic Salary:</label>
+        <input type="number" id="basicSalary">
+
+        <label for="taxRate">Tax Rate:</label>
+        <input type="number" id="taxRate">
+
+        <label for="nhifRate">NHIF Rate:</label>
+        <input type="number" id="nhifRate">
+
+        <label for="nssfRate">NSSF Rate:</label>
+        <input type="number" id="nssfRate">
+
+        <button type="submit">Calculate Net Salary</button>
+    </form>
+    <div id="salaryResults"></div>
 </body>
 </html>
